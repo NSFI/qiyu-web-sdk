@@ -1,4 +1,4 @@
-# @ysf/qiyu-web-sdk
+# @neysf/qiyu-web-sdk
 
 > qiyu-web-sdk
 
@@ -14,12 +14,12 @@
 ### 2.1 安装
 
 ```sh
-$ npm install @ysf/qiyu-web-sdk --save
+$ npm install @neysf/qiyu-web-sdk --save
 ```
 ### 2.2 使用说明(示例)
 
 ```js
-import YSF from '@ysf/qiyu-web-sdk';
+import YSF from '@neysf/qiyu-web-sdk';
 
 /**
  * 第一个参数是 企业 appkey
