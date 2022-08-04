@@ -22,6 +22,6 @@
     "url": "https://github.com/NSFI/qiyu-web-sdk.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   }
 }
