@@ -1,0 +1,27 @@
+{
+  "name": "@ysf/qiyu-web-sdk",
+  "version": "1.0.0",
+  "author": {
+    "name": "ysfed"
+  },
+  "bugs": {
+    "url": "https://github.com/NSFI/qiyu-web-sdk/issues"
+  },
+  "description": "七鱼 Web SDK",
+  "engines": {
+    "node": ">= 6.2.0",
+    "npm": ">= 3.0.0"
+  },
+  "keywords": [
+    "qiyu-web-sdk", "qiyu"
+  ],
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NSFI/qiyu-web-sdk.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  }
+}
