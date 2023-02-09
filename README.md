@@ -24,6 +24,7 @@ import YSF from '@neysf/qiyu-web-sdk';
 /**
  * 第一个参数是 企业 appkey
  * 第二个参数是 配置参数
+ * 第三个参数 环境配置 默认普通企业，传入overseas为海外企业
 */
 
 YSF.init('f13509f5e8b8e1fbb388b3ddbee238c2', {
