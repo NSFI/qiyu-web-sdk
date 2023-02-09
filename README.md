@@ -43,7 +43,7 @@ YSF.init('f13509f5e8b8e1fbb388b3ddbee238c2', {
 |---|---|---| ---| ---|
 | 第一个参数(appkey) | String | 企业 appkey | 是 | -- |
 | 第二个参数(配置) | Object | sdk 入口配置 | 否 | -- |
-| 第三个参数(配置) | String | 普通企业不需要传，海外版本企业：'servehub' | 否 | -- |
+| 第三个参数(配置) | String | 普通企业不需要传，海外版本企业：'overseas' | 否 | -- |
 
 
 

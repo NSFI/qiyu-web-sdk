@@ -2,7 +2,7 @@ var mapEnv = {
   test: 'qytest.netease.com',
   release: 'qiyukf.netease.com',
   online: 'qiyukf.com',
-  servehub: 'servehub.aiconn.com'
+  overseas: 'servehub.aiconn.com'
 };
 var TIMEOUT = 30000;
 var YSF = {};
