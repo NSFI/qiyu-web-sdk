@@ -27,7 +27,6 @@ YSF.init = function (appKey, objParams, env) {
     var ret = [];
     if (objParams) {
       for (var item in objParams) {
-        console.log(item);
         ret.push(item + "=" + objParams[item]);
       }
     }
