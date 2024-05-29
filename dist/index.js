@@ -42,9 +42,9 @@ YSF.init = function (appKey, objParams, env) {
     script.type = 'text/javascript';
     script.async = true;
     if (env && !mapEnv[env]) {
-      script.src = "//" + env + "/script/" + appKey + ".js" + params;
+      script.src = "https://" + env + "/script/" + appKey + ".js" + params;
     } else {
-      script.src = "//" + mapEnv[env || 'online'] + "/script/" + appKey + ".js" + params;
+      script.src = "https://" + mapEnv[env || 'online'] + "/script/" + appKey + ".js" + params;
     }
     // eslint-disable-next-line prefer-const
     var timeout;
