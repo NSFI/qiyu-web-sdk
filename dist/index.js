@@ -27,11 +27,11 @@ YSF.init = function (appKey, objParams, env) {
     if (!appKey) {
       reject(new Error('appKey必填'));
     }
-    if (Object.prototype.toString.call(objParams) !== '[object Object]') {
-      reject(new Error('参数类型错误,第二个参数应该是object'));
-    }
     var ret = [];
     if (objParams) {
+      if (Object.prototype.toString.call(objParams) !== "[object Object]") {
+        reject(new Error("参数类型错误,第二个参数应该是object"));
+      }
       for (var item in objParams) {
         ret.push(item + "=" + objParams[item]);
       }
